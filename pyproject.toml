@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flask-dependency-injection-example"
+version = "0.1.0"
+description = ""
+authors = ["x <x@x.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+flask = "^3.0.2"
+flask-sqlalchemy = "^3.1.1"
+pymysql = "^1.1.0"
+python-dotenv = "^1.0.1"
+dependency-injector = "^4.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
